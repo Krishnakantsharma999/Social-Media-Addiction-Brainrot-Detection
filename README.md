@@ -28,10 +28,12 @@ Relationship Status
 Conflicts Over Social Media
 Addicted Score (Target - Classification)
 Brainrot Score (Target - Regression)
+
 🧠 Machine Learning Models
 Task	Model Used
 Addiction Prediction	Random Forest Classifier
 Brainrot Prediction	Linear Regression
+
 ⚙️ Project Workflow
 Data Cleaning & Preprocessing
 Encoding (One-Hot Encoding using pd.get_dummies)
@@ -41,17 +43,19 @@ Model Training
 Model Evaluation
 Model Saving (pickle)
 Deployment using Streamlit
+
 📊 Model Performance
 Training Accuracy: ~99%
 Testing Accuracy: ~97%
 Cross Validation Score: ~87%
-🖥️ Streamlit App
 
+🖥️ Streamlit App
 The app allows users to:
 
 Input personal and behavioral data
 Get instant addiction prediction
 View brainrot score and level
+
 ▶️ How to Run the Project
 1. Clone the repository
 git clone https://github.com/your-username/social-media-addiction-detection.git
@@ -60,6 +64,7 @@ cd social-media-addiction-detection
 pip install -r requirements.txt
 3. Run the Streamlit app
 streamlit run app.py
+
 📦 Project Structure
 ├── app.py
 ├── model_training.ipynb
@@ -69,6 +74,7 @@ streamlit run app.py
 ├── columns.pkl
 ├── dataset.csv
 └── README.md
+
 🛠️ Technologies Used
 Python
 Pandas
@@ -76,16 +82,19 @@ NumPy
 Scikit-learn
 Streamlit
 Pickle
+
 🎯 Key Learnings
 Importance of consistent preprocessing between training and inference
 Handling categorical variables in ML pipelines
 Avoiding data leakage (removing target from features)
 Model deployment using Streamlit
+
 🚀 Future Improvements
 Add visualization dashboard 📊
 Use advanced models (XGBoost, Neural Networks)
 Deploy on cloud (Streamlit Cloud / AWS / Render)
 Add user authentication system
+
 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
