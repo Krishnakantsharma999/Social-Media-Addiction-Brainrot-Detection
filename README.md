@@ -66,6 +66,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 📦 Project Structure
+
 ├── app.py
 ├── model_training.ipynb
 ├── addiction_model.pkl
