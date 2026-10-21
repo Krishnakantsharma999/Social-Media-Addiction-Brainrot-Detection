@@ -45,8 +45,8 @@ Model Saving (pickle)
 Deployment using Streamlit
 
 📊 Model Performance
-Training Accuracy: ~99%
-Testing Accuracy: ~97%
+Training Accuracy: ~97%
+Testing Accuracy: ~96%
 Cross Validation Score: ~87%
 
 🖥️ Streamlit App
@@ -68,12 +68,12 @@ streamlit run app.py
 📦 Project Structure
 
 ├── app.py
-├── model_training.ipynb
+├──  social media addiction and brainrot detection.ipynb
 ├── addiction_model.pkl
 ├── brainrot_model.pkl
 ├── scaler.pkl
 ├── columns.pkl
-├── dataset.csv
+├── Students Social Media Addiction.csv
 └── README.md
 
 🛠️ Technologies Used
