@@ -13,6 +13,16 @@ Built using Python, Scikit-learn, and Streamlit, this project demonstrates a com
 📈 Scaled features using StandardScaler
 📂 Dataset Information
 
+## Dataset
+Kaggle "Students Social Media Addiction" dataset (705 rows, 13 columns).
+Brainrot_Score is a derived target 
+Brainrot_Score = (
+    (Avg_Daily_Usage_Hours) * 2 +
+    (Conflicts_Over_Social_Media) * 1.5 -
+    (Sleep_Hours_Per_Night) * 1.2 -
+    (Mental_Health_Score) * 0.8
+).
+
 The dataset contains behavioral and demographic features:
 
 Age
