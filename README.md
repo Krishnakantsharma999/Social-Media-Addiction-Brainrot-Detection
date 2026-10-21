@@ -68,8 +68,8 @@ View brainrot score and level
 
 ▶️ How to Run the Project
 1. Clone the repository
-git clone https://github.com/your-username/social-media-addiction-detection.git
-cd social-media-addiction-detection
+git clone https://github.com/Krishnakantsharma999/Social-Media-Addiction-Brainrot-Detection.git
+cd Social-Media-Addiction-Brainrot-Detection
 2. Install dependencies
 pip install -r requirements.txt
 3. Run the Streamlit app
